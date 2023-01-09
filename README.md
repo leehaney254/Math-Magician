@@ -163,6 +163,6 @@ I would like to thank microverse for the great resources shared.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/leehaney254/AwsomeBooks/blob/add-license-1/LICENSE.md) licensed.
+This project is [MIT](https://github.com/leehaney254/Math-Magician/blob/setup/LICENSE) licensed.
 
 
