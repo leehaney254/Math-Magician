@@ -1,5 +1,5 @@
 #main {
-  border: 1px solid #000;
+  border: 1px solid gray;
   width: 80%;
   height: 80%;
   display: flex;
@@ -9,8 +9,7 @@
 }
 
 .calcBorderBottom {
-  border-bottom: 1px solid #000;
-  
+  border-bottom: 1px solid gray;
 }
 
 .height {
@@ -27,4 +26,27 @@
   width: 50%;
   height: 100%;
   font-size: 1.8rem;
+}
+
+.symbols {
+  background-color: #ff922b;
+  
+  border: 1px solid gray;
+}
+
+.symbols:hover {
+  background-color: #ffa435;
+}
+
+#answer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #a7a6ba;
+  color: white;
+  font-size: 2rem;
+}
+
+#spaceright {
+  margin-right: 1rem;
 }
