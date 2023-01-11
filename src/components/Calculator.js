@@ -1,8 +1,22 @@
 import React from 'react';
 import './Calculator.css';
+import calculate from '../logic/Calculate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      button: '',
+    };
+    this.onClickEventHandler = this.onClickEventHandler.bind(this);
+  }
+
+  onClickEventHandler(e) {
+    this.setState({ button: e.target.innerHTML });
+    const { button } = this.state;
+    console.log(button);
+  }
+
   render() {
     return (
       <main id="main">
@@ -10,33 +24,33 @@ class Calculator extends React.Component {
           <p id="spaceright">0</p>
         </div>
         <div className="height">
-          <button type="button" className="button">AC</button>
-          <button type="button" className="button">+/-</button>
-          <button type="button" className="button">%</button>
-          <button type="button" className="button symbols">&divide;</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">AC</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">+/-</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">%</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button symbols">&divide;</button>
         </div>
         <div className="height">
-          <button type="button" className="button">7</button>
-          <button type="button" className="button">8</button>
-          <button type="button" className="button">9</button>
-          <button type="button" className="button symbols">&#215;</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">7</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">8</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">9</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button symbols">&#215;</button>
         </div>
         <div className="height">
-          <button type="button" className="button">4</button>
-          <button type="button" className="button">5</button>
-          <button type="button" className="button">6</button>
-          <button type="button" className="button symbols">-</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">4</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">5</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">6</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button symbols">-</button>
         </div>
         <div className="height">
-          <button type="button" className="button">1</button>
-          <button type="button" className="button">2</button>
-          <button type="button" className="button">3</button>
-          <button type="button" className="button symbols">+</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">1</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">2</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">3</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button symbols">+</button>
         </div>
         <div className="height">
-          <button type="button" className="button1">0</button>
-          <button type="button" className="button">.</button>
-          <button type="button" className="button symbols">=</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button1">0</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button">.</button>
+          <button type="button" onClick={this.onClickEventHandler} className="button symbols">=</button>
         </div>
       </main>
     );
