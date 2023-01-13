@@ -25,7 +25,8 @@
 
 # 📖 Math Magician project <a name="about-project"></a>
 
-The projects can do calculations for a person.
+Math Magician is a react website for people who want to do calculations. It allows users to make simple
+calculations.
 
 ## 🛠 Built With <a name="built-with"></a>
 - React
@@ -33,6 +34,7 @@ The projects can do calculations for a person.
 - CSS
 - JavaScript
 - Linter Checks
+- Webpack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +62,7 @@ The projects can do calculations for a person.
 ## 💻 Getting Started <a name="getting-started"></a>
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-- Clone this repo to your local machine using `
+- Clone this repo to your local machine using `git clone https://github.com/leehaney254/Math-Magician.git`
 - cd into the folder and run `npm install` to install all the dependencies.
 - Run `npm start` to start the app.
 - Open `http://localhost:3000` to view it in the browser.
