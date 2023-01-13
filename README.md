@@ -49,7 +49,7 @@ The projects can do calculations for a person.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Currently there are is no working live demo. But I will update this section at the end.
+- The live demo can be found [here.](https://leehaney254.github.io/Math-Magician)
 
 <!-- - [Live Demo Link](https://leehaney254.github.io/todo-list/) -->
 
@@ -128,7 +128,7 @@ Contributions, issues, and feature requests are welcome!
 
 - [ ] **Improve the UI**
 - [ ] **Add functionality**
-- [ ] **Add the number od pages**
+- [ ] **Add the number of pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
