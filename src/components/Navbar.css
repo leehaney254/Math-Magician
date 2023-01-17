@@ -22,13 +22,19 @@
   text-decoration: none;
 }
 
-.link:hover {}
+.link:hover {
+  color: #ff6700;
+}
 
 #logo {
   font-size: 1.7rem;
 }
 
 #footerLink {
-  color: #FF6700;
+  color: #ff6700;
   text-decoration: none;
+}
+
+#footer {
+  padding: 1.5rem 1rem;
 }

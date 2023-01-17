@@ -1,6 +1,18 @@
 #calcPage {
   display: flex;
   justify-content: space-between;
-  height: 81vh;
+  height: 77vh;
   margin: 2rem 1rem 0 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #calcPage {
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 1rem 1rem 1rem;
+  }
+
+  #main {
+    width: 70%;
+  }
 }

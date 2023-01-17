@@ -1,4 +1,4 @@
-#homeContent {
+.homeContent {
   border: 1px solid black;
   width: 90%;
   border-radius: 10px;
@@ -6,7 +6,7 @@
 }
 
 #homeContainer {
-  height: 85vh;
+  height: 79vh;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<CalculatorPage />} />
         <Route path="/quote" element={<Quote />} />
+        <Route path="/Math-Magician/" element={<Home />} />
       </Routes>
       <Footer />
     </>
