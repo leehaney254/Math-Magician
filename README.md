@@ -52,6 +52,7 @@ calculations.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - The live demo can be found [here.](https://leehaney254.github.io/Math-Magician)
+  > The live demo may expirience some issues since the default url https://leehaney254.github.io/ is also used to host my portfolio. The best fix would be to change the routes to base-url/Math-Magician/page
 
 <!-- - [Live Demo Link](https://leehaney254.github.io/todo-list/) -->
 
