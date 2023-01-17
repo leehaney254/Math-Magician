@@ -1,4 +1,34 @@
 #navDisplay {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 0 1rem;
+}
+
+#links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {}
+
+#logo {
+  font-size: 1.7rem;
+}
+
+#footerLink {
+  color: #FF6700;
+  text-decoration: none;
 }

@@ -3,14 +3,18 @@ import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => (
-  <header>
+  <header className="navbar">
     <nav id="navDisplay">
-      <p>Math MAgicians</p>
-      <ul>
+      <p id="logo">Math Magicians</p>
+      <ul id="links">
         <li>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/calculator">Calculator</NavLink>
-          <NavLink to="/quote">Quote</NavLink>
+          <NavLink className="link" to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink className="link" to="/calculator">calculator</NavLink>
+        </li>
+        <li>
+          <NavLink className="link" to="/quote">Quote</NavLink>
         </li>
       </ul>
     </nav>

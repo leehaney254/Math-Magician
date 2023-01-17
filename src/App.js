@@ -6,6 +6,7 @@ import CalculatorPage from './pages/CalculatorPage';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Quote from './pages/Quote';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/calculator" element={<CalculatorPage />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
+      <Footer />
     </>
   );
 }
