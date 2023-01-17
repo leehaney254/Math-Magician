@@ -15,10 +15,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-#root {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
