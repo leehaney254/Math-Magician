@@ -1,0 +1,40 @@
+#navDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 0 1rem;
+}
+
+#links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ff6700;
+}
+
+#logo {
+  font-size: 1.7rem;
+}
+
+#footerLink {
+  color: #ff6700;
+  text-decoration: none;
+}
+
+#footer {
+  padding: 1.5rem 1rem;
+}
