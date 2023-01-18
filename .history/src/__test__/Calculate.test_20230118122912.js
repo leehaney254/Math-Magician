@@ -4,7 +4,21 @@ describe('Test the calculator logic', () => {
   test('Should be a funtion', () => {
     expect(typeof calculate).toEqual('function')
   })
-  
+  test('set the operator to +', () => {
+    expect(
+      calculate({ total: '', next: '', operation: '' }, '+').operation
+    ).toEqual('+')
+  })
+  test('set the operator to -', () => {
+    expect(
+      calculate({ total: '', next: '', operation: '' }, '-').operation
+    ).toEqual('-')
+  })
+  test('set the operator to x', () => {
+    expect(
+      calculate({ total: '', next: '', operation: '' }, 'x').operation
+    ).toEqual('x')
+  })
   test('set the operator to ÷', () => {
     expect(
       calculate({ total: '', next: '', operation: '' }, '÷').operation
