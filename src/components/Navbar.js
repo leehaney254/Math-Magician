@@ -8,13 +8,13 @@ const Navbar = () => (
       <p id="logo">Math Magicians</p>
       <ul id="links">
         <li>
-          <NavLink className="link" to="/">Home</NavLink>
+          <NavLink data-testid="home-link" className="link" to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink className="link" to="/calculator">calculator</NavLink>
+          <NavLink data-testid="calculator-link" className="link" to="/calculator">calculator</NavLink>
         </li>
         <li>
-          <NavLink className="link" to="/quote">Quote</NavLink>
+          <NavLink data-testid="quote-link" className="link" to="/quote">Quote</NavLink>
         </li>
       </ul>
     </nav>
