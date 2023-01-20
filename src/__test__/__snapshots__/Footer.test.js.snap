@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<footer
+  className="navbar"
+  id="footer"
+>
+  Created by
+  <a
+    href="https://github.com/leehaney254"
+    id="footerLink"
+  >
+     Leehaney
+  </a>
+</footer>
+`;

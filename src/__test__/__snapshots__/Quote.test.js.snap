@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<main
+  id="footerContainer"
+>
+  <ul
+    className="homeContent"
+  >
+    <li
+      className="listspace"
+    >
+      "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. " -
+      <span
+        className="author"
+      >
+         William Paul Thurston
+      </span>
+    </li>
+    <li
+      className="listspace"
+    >
+      "The beauty of mathematics only shows itself to more patient followers." -
+      <span
+        className="author"
+      >
+         Aristotle
+      </span>
+    </li>
+    <li
+      className="listspace"
+    >
+      "Mathematics is the queen of the sciences and arithmetic is the queen of mathematics." -
+      <span
+        className="author"
+      >
+         Carl Friedrich Gauss
+      </span>
+    </li>
+  </ul>
+</main>
+`;
